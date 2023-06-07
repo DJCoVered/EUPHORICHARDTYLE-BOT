@@ -13,10 +13,10 @@ let handler = async (m, { conn, text, args, groupMetadata, usedPrefix, command }
             m.reply(`
 ⚠️ *Usuario Advertido* ⚠️
 
-▢ *Admin:* ${name}
-▢ *Usuario:* @${who.split`@`[0]}
-▢ *Warns:* ${warn + 1}/${war}
-▢ *Razon:* ${text}`, null, { mentions: [who] }) 
+┊🍒┊➤▢ *Admin:* ${name}
+┊🍒┊➤▢ *Usuario:* @${who.split`@`[0]}
+┊🍒┊➤▢ *Warns:* ${warn + 1}/${war}
+┊🍒┊➤▢ *Razon:* ${text}`, null, { mentions: [who] }) 
             m.reply(`
 ⚠️ *ADVERTENCIA* ⚠️
 Recibiste una advertencia de un admin
