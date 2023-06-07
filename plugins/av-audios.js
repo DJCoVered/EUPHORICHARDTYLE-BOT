@@ -54,6 +54,7 @@ let str = `
 ° ඬ⃟🔊 _UwU_
 ° ඬ⃟🔊 _:c_
 ° ඬ⃟🔊 _a_
+°🔥⿻⃨⃟⃗❤ _No tio ben_
 `.trim()
 if (m.isGroup) {
 conn.sendMessage(m.chat, { image: pp, caption: str.trim(), mentions: [...str.matchAll(/@([0-9]{5,16}|0)/g)].map(v => v[1] + '@s.whatsapp.net')}, { quoted: m })    
