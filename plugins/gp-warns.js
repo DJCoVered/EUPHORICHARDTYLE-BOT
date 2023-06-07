@@ -7,8 +7,8 @@ let handler = async (m, { conn, args, groupMetadata}) => {
       m.reply(`
  *ADVERTENCIAS*
 
-▢ *Nombre :* ${name} 
-▢ *Warns :* ${warn}`)
+┊🍒┊➤▢ *Nombre :* ${name} 
+┊🍒┊➤▢ *Warns :* ${warn}`)
 }
 
 handler.help = ['warns']
