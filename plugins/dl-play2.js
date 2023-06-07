@@ -37,9 +37,9 @@ if (size.includes('GB')) return m.reply(` ≡  *FG YTDL*\n\n▢ *⚖️Peso* : $
 	  conn.sendFile(m.chat, dl_url, title + '.mp' + (3 + /vid$/.test(command)), `
  ≡  *FG YTDL*
   
-▢ *📌Título* : ${title}
-▢ *🎞️Calidad* : ${q}
-▢ *⚖️Peso* : ${size}
+┊🍒┊➤▢ *📌Título* : ${title}
+┊🍒┊➤▢ *🎞️Calidad* : ${q}
+┊🍒┊➤▢ *⚖️Peso* : ${size}
 `.trim(), m, false, { mimetype: isVideo ? '' : 'audio/mpeg', asDocument: chat.useDocument })
 		m.react(done) 
     } catch {
