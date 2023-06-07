@@ -9,11 +9,11 @@ m.react(rwait)
 try {
     let p = await fg.tiktok(args[0]) 
     let te = `
-━━⊷ TIKTOK
-▢ *Nombre:* ${p.nickname}
-▢ *Username:* ${p.unique_id}
-▢ *Duración:* ${p.duration}
-▢ *Descripción:* ${p.description}
+━━🍒 TIKTOK
+┊🍒┊➤▢ *Nombre:* ${p.nickname}
+┊🍒┊➤▢ *Username:* ${p.unique_id}
+┊🍒┊➤▢ *Duración:* ${p.duration}
+┊🍒┊➤▢ *Descripción:* ${p.description}
 ━━━━━━━━✦🍒`
     conn.sendFile(m.chat, p.play, 'tiktok.mp4', te, m)
     m.react(done)
@@ -25,8 +25,8 @@ try {
     const url = video.no_watermark2 || video.no_watermark || 'https://tikcdn.net' + video.no_watermark_raw || video.no_watermark_hd
     if (!url) throw '❎ Error al descargar el video'
     conn.sendFile(m.chat, url, 'fb.mp4', `
-━━⊷ *TIKTOK DL-2*
-▢ *Nickname:* ${nickname} ${description ? `\n▢ *Descripción:* ${description}` : ''}
+━━🍒 *TIKTOK HARDPHORIC-2*
+┊🍒┊➤▢ *Nickname:* ${nickname} ${description ? `\n▢ *Descripción:* ${description}` : ''}
 ━━━━━━━━✦🍒`, m)
 m.react(done)
 } catch {
