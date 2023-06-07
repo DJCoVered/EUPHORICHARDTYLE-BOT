@@ -12,10 +12,10 @@ let handler = async (m, { conn, command, text, usedPrefix }) => {
 	let play = `
 	≡ *HARD MUSIC*
 ━━━━━━━━✦🍒
-▢ 📌 *Título* : ${title}
-▢ 📆 *Publicado:* ${ago}
-▢ ⌚ *Duración:* ${timestamp}
-▢ 👀 *Vistas:* ${views}
+┊🍒┊➤▢ 📌 *Título* : ${title}
+┊🍒┊➤▢ 📆 *Publicado:* ${ago}
+┊🍒┊➤▢ ⌚ *Duración:* ${timestamp}
+┊🍒┊➤▢ 👀 *Vistas:* ${views}
 ━━━━━━━━✦🍒`
  await conn.sendButton(m.chat, play, fgig, thumbnail, [
     ['🎶 MP3', `${usedPrefix}fgmp3 ${url}`],
