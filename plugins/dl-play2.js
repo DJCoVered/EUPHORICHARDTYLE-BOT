@@ -23,10 +23,10 @@ let handler = async (m, { conn, text, args, isPrems, isOwner, usedPrefix, comman
   let play = `
 	≡ *HARD MUSIC*
 ━━━━━━━━✦🍒
-▢ 📌 *Título* : ${vid.title}
-▢ 📆 *Publicado:* ${vid.ago}
-▢ ⌚ *Duración:* ${vid.timestamp}
-▢ 👀 *Vistas:* ${vid.views}
+┊🍒┊➤▢ 📌 *Título* : ${vid.title}
+┊🍒┊➤▢ 📆 *Publicado:* ${vid.ago}
+┊🍒┊➤▢ ⌚ *Duración:* ${vid.timestamp}
+┊🍒┊➤▢ 👀 *Vistas:* ${vid.views}
 ━━━━━━━━✦🍒
 
 _Enviando..._`
