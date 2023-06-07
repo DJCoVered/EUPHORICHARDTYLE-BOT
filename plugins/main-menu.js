@@ -28,7 +28,7 @@ let tags = {
 }
 const defaultMenu = {
   before: `
-◈ ━━━━━ *DyLux  ┃ ᴮᴼᵀ* ━━━━━ ◈
+◈ ━━━━━ *ʜᴀʀᴅⷡᴘⷪʜⷮᴏʀɪᴄ* ━━━━━ ◈
  
 👋🏻 _Hola_ *%name*
 🧿 Nivel : *%level* 
@@ -36,7 +36,7 @@ const defaultMenu = {
 📈 Tiempo activo : %muptime
 ─────────────
 ▢ Crea tu propio bot 
-• https://youtu.be/xFqjKN1Qt80
+• 
 ▢ Descarga *FGWhatsApp*
 • https://fgmods.epizy.com
 ─────────────
