@@ -182,23 +182,23 @@ const listMessage = {
       if (!/[01]/.test(command)) return m.reply(`
 ≡ Lista de Opciones
 
-┌─⊷ *ADMIN*
-▢ welcome
-▢ antilink
-▢ detect 
-▢ document
-▢ nsfw
-▢ onlylatinos
+━━━🍒 *ADMIN*
+┊🍒┊➤▢ welcome
+┊🍒┊➤▢ antilink
+┊🍒┊➤▢ detect 
+┊🍒┊➤▢ document
+┊🍒┊➤▢ nsfw
+┊🍒┊➤▢ onlylatinos
 └───────────── 
-┌─⊷ *USERS*
-▢ autolevelup
-▢ chatbot 
-└─────────────
-┌─⊷ *OWNER*
-▢ public
-▢ solopv
-▢ sologp
-└─────────────
+━━━🍒 *USERS*
+┊🍒┊▢ autolevelup
+┊🍒┊▢ chatbot 
+━━━━━━━━🍒
+━━━🍒 *OWNER*
+┊🍒┊▢ public
+┊🍒┊▢ solopv
+┊🍒┊▢ sologp
+━━━━━━━━🍒
 *📌 Ejemplo :*
 *${usedPrefix}on* welcome
 *${usedPrefix}off* welcome
